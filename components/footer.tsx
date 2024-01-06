@@ -4,8 +4,8 @@ const Footer = () => {
       <span>
         Check out the project or report an issue on{" "}
         <a
-          className="text-elden-ring-green dark:text-elden-ring-gold font-bold hover:underline"
-          href="https://github.com/Gobluebro/Elden-Ring-Checklist"
+          className="text-lies-of-p-persian-gold font-bold hover:underline"
+          href="https://github.com/ishan0445/lies_of_p_checklist"
         >
           Github
         </a>
