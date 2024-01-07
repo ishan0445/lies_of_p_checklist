@@ -124,6 +124,8 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ishan0445/li
 
 ## Acknowledgments
 - [Elden Ring Checklist](https://github.com/Gobluebro/Elden-Ring-Checklist)
+- [100% Achievements guide | Lies of P, By Hurensohn](https://steamcommunity.com/sharedfiles/filedetails/?id=3037501833)
+- [Lies of P Wiki](https://liesofp.wiki.fextralife.com/Lies+of+P+Wiki)
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [Github Pages](https://pages.github.com/)
