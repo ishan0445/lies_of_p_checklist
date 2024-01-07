@@ -9,7 +9,7 @@
 <h3 align="center">Lies of P Checklist</h3>
 
   <p align="center">
-    A checklist for you to complete as you go through Lies of P. 
+    A checklist for you to complete as you go through Lies of P. Forked from [Elden Ring Checklist](https://github.com/Gobluebro/Elden-Ring-Checklist)
     <br />
     <br />
     <a href="https://ishan0445.github.io/lies_of_p_checklist/">Visit the website</a>
@@ -123,7 +123,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ishan0445/li
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
-
+- [Elden Ring Checklist](https://github.com/Gobluebro/Elden-Ring-Checklist)
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [Github Pages](https://pages.github.com/)
