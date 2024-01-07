@@ -27,23 +27,12 @@ const CheckboxContainer = (props: Props) => {
   const hasRequirements = Boolean(list.requirements);
 
   // add all ids and default checked values into a single object key/value pair.
-  const defaultValuesHash = list.requirements?.reduce(
+  const defaultValuesHash = list.requirements ? list.requirements.reduce(
     (object, item) => ({ ...object, [item.id]: false }),
     {}
-  );
+  ) : {[list.id]: false};
 
   const totalEntries = Object.keys(defaultValuesHash?? {} ).length;
-
-  function generateOutput(inputList:  Requirement[] | undefined): {[id: string]: boolean} {
-    const output: {[id: string]: boolean} = {};
-    if (!inputList) { return {[list.id]: false}; }
-
-    inputList.forEach(item => {
-      output[item.id] = false;
-    });
-  
-    return output;
-  }
 
   const [checkedState, setCheckedState] = useLocalStorage(
     storageKeyName,
@@ -51,7 +40,7 @@ const CheckboxContainer = (props: Props) => {
   );
 
   useEffect(() => {
-    const booleanArray: boolean[] = Object.values(checkedState ?? generateOutput(list.requirements));
+    const booleanArray: boolean[] = Object.values(checkedState);
 
     // keep every true value and count it.
     setNumberOfCompletedEntries(booleanArray.filter(Boolean).length);
@@ -62,16 +51,16 @@ const CheckboxContainer = (props: Props) => {
   }, [checkedState]);
 
   const toggleAllCheckboxes = () => {
-    const booleanArray: boolean[] = Object.values(checkedState ?? generateOutput(list.requirements));
+    const booleanArray: boolean[] = Object.values(checkedState);
 
     // if they are all true, get back false to assign to every id.
     const toggleBoolean = !booleanArray.every(Boolean);
 
     // just recreate the single object with all values set to the toggleBoolean.
-    const flippedCheckedHash = list.requirements?.reduce(
+    const flippedCheckedHash = list.requirements? list.requirements.reduce(
       (object, item) => ({ ...object, [item.id]: toggleBoolean }),
       {}
-    );
+    ) : {[list.id]: toggleBoolean} ;
 
     setCheckedState(flippedCheckedHash);
   };
@@ -85,7 +74,7 @@ const CheckboxContainer = (props: Props) => {
   };
 
   const handleOnChange = (id: string) => {
-    const newCheckData = cloneDeep(checkedState ?? generateOutput(list.requirements));
+    const newCheckData = cloneDeep(checkedState);
 
     newCheckData[id] = !newCheckData[id];
 
