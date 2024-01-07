@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
+  <a href="https://ishan0445.github.io/lies_of_p_checklist/">
     <img src="public/android-chrome-256x256.png" alt="Logo" width="256" height="256">
   </a>
 
@@ -12,7 +12,7 @@
     A checklist for you to complete as you go through Lies of P. 
     <br />
     <br />
-    <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">Visit the website</a>
+    <a href="https://ishan0445.github.io/lies_of_p_checklist/">Visit the website</a>
     ·
     <a href="https://github.com/ishan0445/lies_of_p_checklist/issues">Report Bug</a>
     ·
@@ -48,7 +48,7 @@
 
 ## About The Project
 
-<a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
+<a href="https://ishan0445.github.io/lies_of_p_checklist/">
   <img src="https://raw.githubusercontent.com/ishan0445/lies_of_p_checklist/master/public/README/2024-01-07-LiesOfPChecklist.png" alt="Website Screenshot" title="Website Screenshot">
 </a>
 

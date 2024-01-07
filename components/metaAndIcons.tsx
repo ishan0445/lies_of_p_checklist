@@ -28,34 +28,34 @@ const Favicons = () => {
       />
       <meta
         name="description"
-        content="A place to remember your progression in Elden Ring"
+        content="A place to remember your progression in Lies of P"
       />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#c39e66" />
       {/* https://ogp.me/ */}
-      <meta property="og:title" content="Elden Ring Checklist" />
+      <meta property="og:title" content="Lies of P Checklist" />
       <meta
         property="og:description"
-        content="A place to remember your progression in Elden Ring"
+        content="A place to remember your progression in Lies of P"
       />
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://gobluebro.github.io/Elden-Ring-Checklist/"
+        content="https://ishan0445.github.io/lies_of_p_checklist/"
       />
       <meta
         property="og:image"
-        content="https://gobluebro.github.io/Elden-Ring-Checklist/android-chrome-256x256.png"
+        content="https://ishan0445.github.io/lies_of_p_checklist/android-chrome-256x256.png"
       />
       {/* https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary */}
-      <meta name="twitter:title" content="Elden Ring Checklist" />
+      <meta name="twitter:title" content="Lies of P Checklist" />
       <meta
         name="twitter:description"
-        content="A place to remember your progression in Elden Ring"
+        content="A place to remember your progression in Lies of P"
       />
       <meta
         name="twitter:image"
-        content="https://gobluebro.github.io/Elden-Ring-Checklist/android-chrome-256x256.png"
+        content="https://ishan0445.github.io/lies_of_p_checklist/android-chrome-256x256.png"
       />
       <meta name="twitter:card" content="summary" />
     </>
