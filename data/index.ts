@@ -1,6 +1,7 @@
 export * from "./achievementTodos";
 export * from "./achievements";
 export * from "./bosses";
+export * from "./mini_bosses";
 export * from "./graces";
 export * from "./miscellaneous";
 export * from "./quests";
