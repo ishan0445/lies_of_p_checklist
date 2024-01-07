@@ -38,12 +38,13 @@ const CompleteList = (props: Props) => {
             showCompleted={showCompleted}
             setShowCompleted={setShowCompleted}
           />
-          <div className="ml-4">
+          
+          {currentTabListData && currentTabListData.some(listItem => !!listItem.requirements) && (<div className="ml-4">
             <ToggleAllAccordions
               accordionState={accordionState}
               setAccordionState={setAccordionState}
             />
-          </div>
+          </div>)}
         </div>
       </div>
       {currentTabListData?.map((item) => (

@@ -123,7 +123,7 @@ const CheckboxContainer = (props: Props) => {
                     href={list.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="underline dark:text-elden-ring-green-150"
+                    className="underline text-lies-of-p-paynes-gray"
                   >
                     {list.name}
                   </a>
@@ -185,7 +185,7 @@ const CheckboxContainer = (props: Props) => {
                         target="_blank"
                         rel="noreferrer"
                         tabIndex={-1}
-                        className="underline dark:text-elden-ring-green-150"
+                        className="underline text-lies-of-p-paynes-gray"
                       >
                         {description}
                       </a>
