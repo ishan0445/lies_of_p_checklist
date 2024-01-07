@@ -5,7 +5,7 @@ export const AchievementTodoList: Array<ListType> = [
   {
     id: "d62c2c4c-cc27-469b-87d2-0f1d96f915b0",
     name: "Normal Weapons Collector",
-    imageUrl: prefix + "/achievements/normal_weapon_collector.jpg",
+    imageUrl: prefix + "achievements/normal_weapon_collector.jpg",
     imageAlt: "Normal Weapons Collector",
     "requirements": [
       {
@@ -159,7 +159,7 @@ export const AchievementTodoList: Array<ListType> = [
   {
     id: "1eed9ac3-6ca8-4c38-88d0-e0e8b441678c",
     name: "Special Weapons Collector",
-    imageUrl: prefix + "/achievements/special_weapon_collector.jpg",
+    imageUrl: prefix + "achievements/special_weapon_collector.jpg",
     imageAlt: "Special Weapons Collector",
     "requirements": [
       {
@@ -222,7 +222,7 @@ export const AchievementTodoList: Array<ListType> = [
   {
     id: "ae1cc1fe-67c6-4630-9a6d-469e4311e25e",
     name: "Learning About Emotions",
-    imageUrl: prefix + "/achievements/learning_about_emotions.jpg",
+    imageUrl: prefix + "achievements/learning_about_emotions.jpg",
     imageAlt: "Learning About Emotions",
     "requirements": [
       {
@@ -315,7 +315,7 @@ export const AchievementTodoList: Array<ListType> = [
   {
     id: "d92078bb-2544-45f9-aabf-3be911f65f32",
     name: "Veteran Explorer",
-    imageUrl: prefix + "/achievements/veteran_explorer.jpg",
+    imageUrl: prefix + "achievements/veteran_explorer.jpg",
     imageAlt: "Veteran Explorer",
     "requirements": [
       {

@@ -3,10 +3,6 @@ import {
   AchievementList,
   BossesList,
   MiniBossesList,
-  GracesList,
-  MiscellaneousList,
-  QuestsList,
-  GoldenSeedsList,
   ListType,
 } from "../data/";
 
