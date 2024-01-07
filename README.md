@@ -6,17 +6,17 @@
     <img src="public/android-chrome-256x256.png" alt="Logo" width="256" height="256">
   </a>
 
-<h3 align="center">Elden Ring Checklist</h3>
+<h3 align="center">Lies of P Checklist</h3>
 
   <p align="center">
-    A checklist for you to complete as you go through Elden Ring. 
+    A checklist for you to complete as you go through Lies of P. 
     <br />
     <br />
     <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">Visit the website</a>
     ·
-    <a href="https://github.com/Gobluebro/Elden-Ring-Checklist/issues">Report Bug</a>
+    <a href="https://github.com/ishan0445/lies_of_p_checklist/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Gobluebro/Elden-Ring-Checklist/issues">Request Feature</a>
+    <a href="https://github.com/ishan0445/lies_of_p_checklist/issues">Request Feature</a>
   </p>
 </div>
 
@@ -38,8 +38,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -51,7 +49,7 @@
 ## About The Project
 
 <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
-  <img src="https://raw.githubusercontent.com/Gobluebro/Elden-Ring-Checklist/main/public/README/2023-04-22%2002_26_29-Elden%20Ring%20Checklist.png" alt="Website Screenshot" title="Website Screenshot">
+  <img src="https://raw.githubusercontent.com/ishan0445/lies_of_p_checklist/master/public/README/2024-01-07-LiesOfPChecklist.png" alt="Website Screenshot" title="Website Screenshot">
 </a>
 
 This project is meant to allow you to keep track and complete as much as possible through your playthrough.
