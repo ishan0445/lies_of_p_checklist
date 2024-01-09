@@ -9,7 +9,7 @@ import { TabNames } from "../data/";
 import bg from '../public/site_background.jpg'
 
 const Home: NextPage = () => {
-  const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Quests);
+  const [currentTab, setCurrentTab] = useState<TabNames>(TabNames.Achievements);
 
   return (
     <div style={{
