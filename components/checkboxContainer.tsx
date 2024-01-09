@@ -13,7 +13,7 @@ interface Props {
 }
 
 const checkboxInputStyles =
-  "mr-2 rounded text-lies-of-p-gunmetal focus:border-lies-of-p-air-force-blue focus:ring focus:ring-offset-0 focus:ring-lies-of-p-paynes-gray focus:ring-opacity-50";
+  "mr-2 rounded text-lies-of-p-gunmetal focus:border-lies-of-p-air-force-blue focus:ring focus:ring-offset-0 focus:ring-red focus:ring-opacity-50";
 
 const CheckboxContainer = (props: Props) => {
   const { list, showCompleted, accordionState, setAccordionState } = props;

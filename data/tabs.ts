@@ -4,16 +4,15 @@ import {
   BossesList,
   MiniBossesList,
   ListType,
+  Quartz,
 } from "../data/";
 
 export enum TabNames {
-  Quests,
   Achievements,
   AchievementTodo,
   MiniBosses,
   Bosses,
-  GoldenSeeds,
-  Miscellaneous,
+  Quartz
 }
 
 export interface TabData {
@@ -47,5 +46,11 @@ export const TabDataArray: TabData[] = [
     name: "Mini bosses",
     enum: TabNames.MiniBosses,
     listData: MiniBossesList,
+  },
+  {
+    id: 5,
+    name: "Quartz",
+    enum: TabNames.Quartz,
+    listData: Quartz,
   },
 ];
