@@ -154,7 +154,6 @@ export const AchievementTodoList: Array<ListType> = [
         "description": "Estella Opera Entrance: Buy it from Subject 826. You have to first meet and talk to him in Arche Abbey Outer Wall after riding an elevator down. After talking to him, open the giant stone door for him to escape. After beating the next boss he will wait for you on the bridge above Rosa Isabella Street. The street which was on fire and where you fought the Clown-puppet."
       }
     ],
-    
   },
   {
     id: "1eed9ac3-6ca8-4c38-88d0-e0e8b441678c",
@@ -355,5 +354,100 @@ export const AchievementTodoList: Array<ListType> = [
         "description_2": "Go to the Abandoned Apartment Stargazer, get out, cross the sign that functions like a bridge. Don't go through the gate, instead walk through the small path to your left. Keep going left where 4 Zombie dogs are camping. Go up the balcony stairs and equip the Frozen Feast (a Special Weapon). Talk to the merchant and obtain your reward."
       }
     ]
+  },
+  {
+    id: "6ad836d6-cb4b-4973-8696-67c6e74a9ac6",
+    name: "Golden Melody",
+    imageUrl: prefix + "achievements/golden_melody.jpg",
+    imageAlt: "Golden Melody",
+    "requirements": [
+      {
+        "id": "c9175aa9-c1c2-496a-8356-0ec2afcb0e7f",
+        "name": "Feel",
+        "description": "Inside the House on Elysion Boulevard"
+      },
+      {
+        "id": "5442443a-3f3e-4440-85bc-eb38b7961923",
+        "name": "Divine Service",
+        "description": "Sister Cecile in the St. Frangelico Cathedral Library"
+      },
+      {
+        "id": "62ff040c-2f37-4be4-9b5a-73e59a2cc74c",
+        "name": "Someday",
+        "description": "Purchasable from the Wandering Merchant in the Red Lobsters Inn in Malum District"
+      },
+      {
+        "id": "b13214f1-8ce8-44fb-8c22-9c0c89e9cd33",
+        "name": "Fascination",
+        "description": "Dropped by Adelina after giving her the Bright Red Apple and then defeating the King of Puppets"
+      },
+      {
+        "id": "bb848762-e55e-4623-b2cb-3df8d0f281b3",
+        "name": "Quixotic",
+        "description": "After defeating Champion Victor in the Grand Exhibition Conference Room"
+      },
+      {
+        "id": "328db5d2-17f6-466a-8dda-e49e23d896e5",
+        "name": "Why",
+        "description": "Obtained through Belle's questline",
+        "description_2": "WARNING: Start this questline before defeating Champion Victor as Belle dies if you beat Victor before talking to her"
+      },
+      {
+        "id": "612cfb4b-bf42-41f1-b7d4-c6a1f7c8992b",
+        "name": "Misty E'rA",
+        "description": "In the Hermit's Cave close to the Barren Swamp Bridge Stargazer"
+      },
+      {
+        "id": "04c87b88-85c7-4861-8c2c-52af560b7665",
+        "name": "Far East Princess",
+        "description": "After getting Alidoro's cypher, and decyphering it. Talk to Eugénie and choose to lie: “I think he was just a talented Stalker”"
+      },
+      {
+        "id": "17a7a541-7ea6-4f1b-a3f1-e98b555db53a",
+        "name": "Memory of Beach",
+        "description": "After progressing 'The Story of the Refined Old Lady' questline, defeating Laxasia The Complete, head back to the hotel and talk to Polendina. He will tell you that Antonia has passed away. Go upstairs to Gepetto's Office and find the record on Antonia's chair."
+      },
+      {
+        "id": "0155b731-f132-4b73-94ce-1968bbee4146",
+        "name": "Shadow Flower",
+        "description": "After you have defeated Laxasia The Complete you will meet Sophia on a chair. Choose 'Give her Peace' and find the record on the same chair after she vanished."
+      },
+      {
+        "id": "f7a981d5-fcd2-41c5-9e0f-c32fd84e0586",
+        "name": "Proposal, Flower, Wolf Part 1",
+        "description": "Reward for finishing 'The Story of a Stranger Girl' achievement",
+        "description_2": "Easily missable, may require NG+"
+      },
+      {
+        "id": "fa7ecdd4-ab67-4c87-b685-9be8806d85af",
+        "name": "Quixotic (Golden)",
+        "description": "Inside the House on Elysion Boulevard Stargazer: Wandering Merchant for 10,000 Ergo",
+        "description_2": "Requires NG+"
+      },
+      {
+        "id": "2dbf99d1-6f73-41c9-9ed1-58d7afd80b49",
+        "name": "Shadow Flower (Golden)",
+        "description": "Lorenzini Arcade: Wandering Merchant for 10,000 Ergo",
+        "description_2": "Requires NG+"
+      },
+      {
+        "id": "4b9be93b-7187-46ca-9d63-625ffd32e9eb",
+        "name": "Memory of Beach (Golden)",
+        "description": "Abandoned Apartment Stargazer: Wandering Merchant for 10,000 Ergo",
+        "description_2": "Requires NG+"
+      },
+      {
+        "id": "624c94aa-b970-4386-9c86-ef224ad2d681",
+        "name": "Proposal, Flower, Wolf Part 1 (Golden)",
+        "description": "Cerasani Allery Stargazer: Wandering Merchant for 6,000 Ergo",
+        "description_2": "Requires NG+"
+      },
+      {
+        "id": "03ffbe22-1792-47a8-b508-faf0e4cf7eaa",
+        "name": "Fascination (Golden)",
+        "description": "From Subject 826's questline",
+        "description_2": "Requires NG+"
+      },
+    ],
   },
 ];
